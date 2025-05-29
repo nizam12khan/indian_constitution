@@ -28,13 +28,37 @@ gem install ./indian_constitution-0.1.0.gem
 
 ## Usage
 
-TODO: Write usage instructions here
+Load the gem and retrieve constitutional articles by number:
+```ruby
+require 'indian_constitution'
+
+# Get Article 21
+article = IndianConstitution.get_article(21)
+puts article['title']    # "Protection of life and personal liberty"
+puts article['content']  # "No person shall be deprived of his life or personal liberty except according to procedure established by law."
+```
+More features (e.g., keyword search, CLI, amendment history) are planned for future releases.
 
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+To set up the project for development:
+
+Clone the repository:
+```bash
+git clone https://github.com/nizam12khan/indian-constitution-gem.git
+cd indian-constitution-gem
+```
+Install dependencies:```bin/setup```
+
+Run tests:```rake spec```
+
+Experiment with the gem in an interactive console:```bin/console```
+
+To install the gem locally for testing:```bundle exec rake install```
 
 ## Contributing
 
@@ -47,3 +71,12 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the IndianConstitution project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/indian_constitution/blob/master/CODE_OF_CONDUCT.md).
+
+## Roadmap
+
+- Add search functionality for articles by keyword.
+- Include amendment history and schedules.
+- Build a CLI for quick lookups.
+- Create a demo Rails app to showcase web integration.
+
+
