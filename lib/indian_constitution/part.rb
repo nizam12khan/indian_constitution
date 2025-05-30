@@ -1,5 +1,7 @@
 # frozen_string_literal: true
+
 module IndianConstitution
+  # Represents a part of the Indian Constitution, containing a number, title, and articles.
   class Part
     attr_reader :number, :title, :articles
 
@@ -10,7 +12,7 @@ module IndianConstitution
     end
 
     def find_article(number)
-      articles.find { |article| article.number == number}
+      articles.find { |article| article.number == number }
     end
 
     def to_h

@@ -8,7 +8,6 @@ RSpec.describe IndianConstitution do
       expect(part.title).to eq("The Union and Its Territory")
       expect(part.articles.size).to eq(4) # Part I has Articles 1-4
     end
-
   end
 
   describe ".get_article" do
@@ -23,5 +22,4 @@ RSpec.describe IndianConstitution do
       expect { IndianConstitution.get_article(999) }.to raise_error("Article 999 not found")
     end
   end
-
 end

@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
 require "json"
 require "indian_constitution/part"
 require "indian_constitution/article"
 
+# Provides access to the Indian Constitution's parts and articles. djejd
 module IndianConstitution
   DATA_DIR = File.join(__dir__, "indian_constitution", "data")
   DATA_PATH = File.join(DATA_DIR, "constitution.json")
