@@ -3,7 +3,8 @@ require "indian_constitution/part"
 require "indian_constitution/article"
 
 module IndianConstitution
-  DATA_PATH = File.expand_path("data/constitution.json", __dir__)
+  DATA_DIR = File.join(__dir__, "indian_constitution", "data")
+  DATA_PATH = File.join(DATA_DIR, "constitution.json")
   @parts = nil
 
   def self.load_data
@@ -25,7 +26,7 @@ module IndianConstitution
 
   def self.get_article(number)
     parts.each do |part|
-      article = part.find_article(number)
+      article = part.find_article(number.to_i)
       return article if article
     end
     raise "Article #{number} not found"

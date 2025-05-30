@@ -3,10 +3,10 @@ module IndianConstitution
   class Part
     attr_reader :number, :title, :articles
 
-    def initialize(number, title, articles)
-      @number = number
-      @title = title
-      @articles = articles.map { |article_data| Article.new(article_data) }
+    def initialize(data)
+      @number = data["number"]
+      @title = data["title"]
+      @articles = data["articles"].map { |article_data| Article.new(article_data) }
     end
 
     def find_article(number)

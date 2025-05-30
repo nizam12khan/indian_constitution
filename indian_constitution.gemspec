@@ -29,9 +29,14 @@ Gem::Specification.new do |spec|
         f.start_with?(*%w[bin/ test/ spec/ features/ .git .github appveyor Gemfile])
     end
   end
+ data_files = Dir.glob("lib/indian_constitution/data/**/*").select { |f| File.file?(f) }
+lib_files = Dir.glob("lib/**/*").select { |f| File.file?(f) }
+spec.files = lib_files + data_files
+puts "Files included in gem: #{spec.files}" # Debug output
+
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ["lib", "lib/indian_constitution/data"]
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"

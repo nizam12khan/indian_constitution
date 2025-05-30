@@ -2,11 +2,10 @@ module IndianConstitution
   class Article
     attr_reader :number, :title, :content
 
-    def initialize(number:, title:, content:)
-      @number = number
-      @title = title
-      @content = content
-      freeze
+     def initialize(data)
+      @number = data["number"]
+      @title = data["title"]
+      @content = data["content"]
     end
 
     def to_h
