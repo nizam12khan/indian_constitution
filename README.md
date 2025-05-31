@@ -74,9 +74,41 @@ Everyone interacting in the IndianConstitution project's codebases, issue tracke
 
 ## Roadmap
 
-- Add search functionality for articles by keyword.
-- Include amendment history and schedules.
-- Build a CLI for quick lookups.
-- Create a demo Rails app to showcase web integration.
+The IndianConstitution gem aims to be a comprehensive and easily accessible resource for developers. Here's a look at our planned features and future potential:
+
+**Short-Term Goals:**
+
+-   **Keyword Search:** Implement functionality to search articles by keywords, making it easier to find relevant constitutional provisions.
+-   **Amendments and Schedules:** Incorporate detailed information about constitutional amendments and schedules, providing a complete picture of the Indian Constitution.
+-   **Command-Line Interface (CLI):** Develop a CLI tool for quick lookups and easy access to constitutional data directly from the terminal.
+-   **Demo Rails Application:** Build a sample Rails application to demonstrate how the gem can be integrated into web projects, showcasing its capabilities for web integration.
+
+**Rails API Development:**
+
+This gem can be a powerful tool for building Rails-based APIs that serve constitutional data. Developers can leverage its structured data to:
+
+-   Create endpoints that provide specific articles, parts, or schedules of the Constitution.
+-   Build applications that require citation or reference to constitutional texts, such as legal tech platforms, educational tools, or news applications.
+-   Develop features that allow users to search and navigate the Constitution within their applications.
+
+**AI Agent Integration:**
+
+Structured and machine-readable access to legal documents like the Indian Constitution is invaluable for the development of AI agents. This gem can facilitate:
+
+-   **Training Data for LLMs:** Provide a clean and organized dataset for training Large Language Models (LLMs) on legal texts, improving their understanding and generation of legal content.
+-   **Legal Research Tools:** Enable AI agents to perform sophisticated legal research by querying and analyzing constitutional provisions.
+-   **AI-Powered Legal Assistance:** Support the creation of AI tools that can help citizens understand their rights and legal professionals in their work by providing quick access to relevant constitutional articles.
+-   **Natural Language Processing (NLP):** Serve as a foundational dataset for NLP tasks related to legal document analysis, summarization, and comparison.
+
+**Future Vision:**
+
+We envision the IndianConstitution gem evolving into an even more powerful resource with features such as:
+
+-   **Multilingual Support:** Provide access to the Constitution in multiple Indian languages.
+-   **Integration with Other Legal Data Sources:** Connect with other legal databases and resources to offer a more holistic legal information platform.
+-   **Advanced Analytical Features:** Implement tools for comparing different versions of articles (post-amendment), tracking the evolution of specific laws, and identifying related provisions.
+-   **Community Contributions:** Foster a community around the gem to encourage contributions, such as adding case law annotations or scholarly commentary.
+
+We are excited about the potential of this gem and welcome contributions and suggestions from the community to make it even better!
 
 
