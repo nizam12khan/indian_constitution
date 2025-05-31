@@ -62,7 +62,7 @@ To install the gem locally for testing:```bundle exec rake install```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/indian_constitution. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/nizam12khan/indian_constitution/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/nizam12khan/indian_constitution. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/nizam12khan/indian_constitution/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
