@@ -1,6 +1,6 @@
 # IndianConstitution
 
-A Ruby gem providing structured access to the Indian Constitution's articles, amendments, and schedules. Designed for legal tech, news platforms, educational tools, and AI applications, this gem allows developers to easily retrieve and work with constitutional data. Inspired by the creator's UPSC background, this project aims to bridge legal knowledge and technology for broader accessibility.
+A Ruby gem providing structured access to the Indian Constitution's articles, amendments, and schedules. Designed for legal tech, news platforms, educational tools, and AI applications, this gem allows developers to easily retrieve and work with constitutional data. Inspired by the creator's UPSC background, this project aims to bridge legal knowledge and technology for broader accessibility. Also in future i want to add previous year questions related to specific article.
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/indian_constitution`. To experiment with that code, run `bin/console` for an interactive prompt.
 
